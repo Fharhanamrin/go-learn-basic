@@ -128,9 +128,4 @@ const Pi = 3.14
   - **Huruf Kecil**: Hanya dapat dipanggil di package yang sama (private).
 ```
 
-### Catatan
 
-- Pastikan untuk menambahkan penjelasan lebih lanjut di setiap bagian jika diperlukan, agar pembaca dapat memahami konteks dan penggunaan masing-masing fitur dengan lebih baik.
-- Gunakan format markdown yang sesuai untuk menjaga keterbacaan dan struktur yang baik di GitHub.
-
-Jika ada yang ingin ditambahkan atau diubah, silakan beri tahu!
