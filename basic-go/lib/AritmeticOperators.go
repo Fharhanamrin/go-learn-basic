@@ -1,5 +1,5 @@
 package lib
 
-func Add(a int, b int) int {
-	return a + b
+func Add(Param1 int, Param2 int) int {
+	return Param2 + Param2
 }

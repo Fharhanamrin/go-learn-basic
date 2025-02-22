@@ -9,10 +9,10 @@ import (
 func Switch() {		
 	switch os := runtime.GOOS; os {
 	case "darwin":
-		fmt.Println("Sistem operasi adalah MacOS")
+		fmt.Println("Sistem operasi MacOS")
 	case "linux":
-		fmt.Println("Sistem operasi adalah Linux")
+		fmt.Println("Sistem operasi Linux")
 	default:
-		fmt.Println("Sistem operasi adalah", os)
+		fmt.Println("Sistem operasi", os)
 	}
 }

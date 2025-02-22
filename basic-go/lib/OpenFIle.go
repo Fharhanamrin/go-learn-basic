@@ -24,7 +24,6 @@ func OpenFile() {
 		
 		scanner := bufio.NewScanner(file)
 
-		
 		lineNumber := 1
 		for scanner.Scan() {
 			line := scanner.Text()
