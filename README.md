@@ -19,8 +19,8 @@ go mod tidy
 
 ## 3. Membuka dan Membaca File
 - **readFile**: 
-  - Jika ukuran file kecil, gunakan `scanner.Scan()`.
-  - Jika ukuran file besar, cetak baris per baris.
+  - Jika ukuran file kecil, gunakan ReadFile
+  - Jika ukuran file besar, cetak baris per baris. gunakan `scanner.Scan()`.
 
 ## 4. Penulisan Package
 - Penulisan nama package dengan huruf besar dan kecil sangat berpengaruh terhadap level akses:
