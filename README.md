@@ -3,12 +3,6 @@ Berikut adalah penjelasan yang telah disesuaikan untuk ditambahkan ke file READM
 ```markdown
 # go-learn-basic
 
-# go-learn-basic
-
-## Screenshot
-![Screenshot](meetapp.png)
-
-
 ## 1. Inisialisasi Proyek
 1.1 Gunakan perintah berikut untuk menginisialisasi proyek saat mulai menggunakan package:
 ```bash
