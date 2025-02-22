@@ -1,6 +1,35 @@
+Berikut adalah penjelasan yang telah disesuaikan untuk ditambahkan ke file README di GitHub agar lebih rapi dan terstruktur:
+
+```markdown
 # go-learn-basic
-1.1 go mod init project => initial project ketika mulai menggunakan package
-1.2  go mod tidy untuk menyesuaikan package yang di gunakan
-1. variabel golang
-2. open file & read file readFile => jika ukuran kecil, scanner.Scan() jika ukuran besar untuk cetak baris per baris
-3. penulisan package di awali huruf besar dan kecil itu sgt berpengaruh untuk level akses, jika hurus besar dia bisa di panggil di package lain..jika dia kecil...dia hanya bisa di panggil di package yang sama(private)
+
+## 1. Inisialisasi Proyek
+1.1 Gunakan perintah berikut untuk menginisialisasi proyek saat mulai menggunakan package:
+```bash
+go mod init project
+```
+
+1.2 Untuk menyesuaikan package yang digunakan, jalankan:
+```bash
+go mod tidy
+```
+
+## 2. Variabel Golang
+- Penjelasan tentang variabel di Golang.
+
+## 3. Membuka dan Membaca File
+- **readFile**: 
+  - Jika ukuran file kecil, gunakan `scanner.Scan()`.
+  - Jika ukuran file besar, cetak baris per baris.
+
+## 4. Penulisan Package
+- Penulisan nama package dengan huruf besar dan kecil sangat berpengaruh terhadap level akses:
+  - **Huruf Besar**: Dapat dipanggil di package lain (public).
+  - **Huruf Kecil**: Hanya dapat dipanggil di package yang sama (private).
+```
+
+### Catatan
+- Pastikan untuk menambahkan penjelasan lebih lanjut di setiap bagian jika diperlukan, agar pembaca dapat memahami konteks dan penggunaan masing-masing fitur dengan lebih baik.
+- Gunakan format markdown yang sesuai untuk menjaga keterbacaan dan struktur yang baik di GitHub.
+
+Jika ada yang ingin ditambahkan atau diubah, silakan beri tahu!
